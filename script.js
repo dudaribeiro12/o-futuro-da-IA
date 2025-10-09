@@ -64,6 +64,13 @@ function respostaSelecionada(opcaoSelecionada){
   const afirmacoes = opcaoSelecionada.afirmacoes;
   historiaFinal = afirmacoes;
   atual++;
-mostraPerguntas()
+mostraPerguntas();
 }
-mostraPerguntas()
+
+function mostraResultado (){ 
+caixaPerguntas.textContent = "" ;
+textoResultado.textContent=     ;
+caixaAlternativas.textContent= "";
+}
+
+mostraPergunta();
