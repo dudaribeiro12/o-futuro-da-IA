@@ -68,8 +68,13 @@ mostraPerguntas();
 }
 
 function mostraResultado (){ 
-caixaPerguntas.textContent = "" ;
-textoResultado.textContent=     ;
+caixaPerguntas.textContent = "Este quiz foi criado com o objetivo de testar, de forma leve e interativa,
+ o conhecimento sobre o uso da Inteligência Artificial no desenvolvimento de sites. A IA tem se tornado uma ferramenta cada vez mais presente na tecnologia, e entender seu funcionamento, vantagens e riscos é essencial.
+Com perguntas divertidas e educativas, o quiz estimula o pensamento 
+crítico, esclarece dúvidas comuns e ajuda a refletir sobre como usamos a tecnologia no dia a dia.
+Além de aprender, você também vai se divertir com algumas alternativas
+ bem criativas!" ;
+textoResultado.textContent=historiaFinal;
 caixaAlternativas.textContent= "";
 }
 
