@@ -44,7 +44,7 @@ alternativas:  "Verdadeiro,  Falso"]
 
 let atual= 0;
 let perguntaAtual; 
-
+let historiaFinal = "";
  
 
 function mostraPerguntas(){
