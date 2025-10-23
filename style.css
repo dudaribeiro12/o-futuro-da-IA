@@ -63,3 +63,15 @@ footer {
 footer strong {
     color: #ea15d8;
 }
+footer {
+    position: fixed;      /* fixa o rodapé na tela */
+    bottom: 0;            /* na parte inferior */
+    left: 0;              /* alinhado à esquerda */
+    width: 100%;          /* ocupa toda a largura da tela */
+    background-color: #f8f9fc;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    color: #666;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
