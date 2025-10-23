@@ -38,12 +38,18 @@ button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
-.introducao {
-    background-color: #f5f5f5;
+#botao-comecar {
+    background-color: #e07acd;
+    color: white;
+    border: none;
     border-radius: 8px;
-    padding: 15px;
-    margin: 20px 0;
+    padding: 12px 25px;
     font-size: 1.1em;
-    line-height: 1.6;
-    color: #333;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+#botao-comecar:hover {
+    background-color: #ef92e5;
 }
