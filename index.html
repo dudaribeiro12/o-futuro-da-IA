@@ -10,7 +10,8 @@
     <div class="caixa-principal">
         <h1>Você decide o futuro da IA</h1>
 
-        <div class="introducao">
+        <!-- Página de introdução -->
+        <div id="pagina-introducao">
             <p>
                 Este quiz foi criado com o objetivo de testar, de forma leve e interativa,
                 o conhecimento sobre o uso da Inteligência Artificial no desenvolvimento de sites.
@@ -22,14 +23,27 @@
                 esclarece dúvidas comuns e ajuda a refletir sobre como usamos a tecnologia no dia a dia.
                 Além de aprender, você também vai se divertir com algumas alternativas bem criativas!
             </p>
+
+            <button id="botao-comecar">Começar o Quiz</button>
         </div>
 
-        <div class="caixa-perguntas"></div>
-        <div class="caixa-alternativas"></div>
-        <div class="caixa-resultado">
-            <p class="texto-resultado"></p>
+        <!-- Página das perguntas (inicialmente escondida) -->
+        <div id="pagina-quiz" style="display: none;">
+            <div class="caixa-perguntas"></div>
+            <div class="caixa-alternativas"></div>
+            <div class="caixa-resultado">
+                <p class="texto-resultado"></p>
+            </div>
         </div>
     </div>
+
+    <script>
+        // Faz a troca entre a introdução e o quiz
+        document.getElementById("botao-comecar").addEventListener("click", function() {
+            document.getElementById("pagina-introducao").style.display = "none";
+            document.getElementById("pagina-quiz").style.display = "block";
+        });
+    </script>
 
     <script src="script.js"></script>
 </body>
