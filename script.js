@@ -2,6 +2,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const textoResultado = document.querySelector(".texto-resultado");
 
+
 const perguntas = [
   {
     enunciado: "1. A IA será capaz de criar designs personalizados automaticamente, sem a intervenção de designers humanos.",
